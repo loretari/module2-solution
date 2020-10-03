@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+margin: 20px;
+	text-align: center;
+}
+p {
+	margin : 0;
+	padding: 40px 20px 10px 10px;
+
+}
+.container {
+
+	margin: 0 auto;
+	padding: 20px;
+
+}
+
+
+
+.column {
+	margin: 20px;
+	background-color: #808080;
+	 width: 25%;
+  border: 1px solid black;
+  float: left; 
+position: relative;
+  padding: 0 10px;
+
+   
+}
+
+@media screen and (min-width: 767px) {
+	.column {
+    width: 90%;
+
+   
+  }
+}
+@media screen and (min-width: 991px) {
+	.column {
+    width: 86%;
+}
+.primary, .secondary {
+width: 41%;
+}
+   
+  
+}
+@media screen and (min-width: 1240px) {
+	.column {
+width: 30%;
+	}
+}
+
+
+
+  
+.chicken {
+	top: 0;
+	padding: 0px;
+	text-align: center;
+	width: 200px;
+	height: 30px;
+	background-color: #BC8F8F;
+	color: black;
+	margin: 0px;
+	position: absolute;
+	right: 0; 
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    
+	
+}
+
+.beef {
+	top: 0;
+	padding: 0px;
+	text-align: center;
+	width: 200px;
+	height: 30px;
+	background-color: #8B0000;
+	color: white;
+	margin: 0px;
+position: absolute;
+	right: 0;
+font-size: 20px;
+    font-weight: bold;
+	border: 1px solid black;
+}
+.suchi {
+	top: 0;
+	padding: 0px;
+	text-align: center;
+	width: 200px;
+	height: 30px;
+	background-color: #F5DEB3;
+	color: black;
+	margin: 0px;
+font-size: 20px;
+    font-weight: bold;
+	position: absolute;
+	right: 0;
+	border: 1px solid black;
+}
